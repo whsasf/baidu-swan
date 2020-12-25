@@ -1,0 +1,13 @@
+{
+    "appid": "22777833",
+    "miniprogramRoot": "./dist",
+    "projectname": "168网赚",
+    "description": "",
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": false
+    },
+    "compileType": "miniprogram"
+}

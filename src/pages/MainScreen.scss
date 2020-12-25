@@ -1,0 +1,30 @@
+.MainScreen {
+    .container {
+        height: 100%;
+    }
+    .bottom {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+    }
+    .bottom-nav {
+        height: 100px;
+        box-sizing: border-box;
+        border-width: 2px solidrgba(143, 143, 143, 1);
+        // padding: 0 64px;
+        padding: 0 150px;
+        .item {
+            .text {
+                margin-top: 4px;
+                font-size: 24px;
+                line-height: 34px;
+                color: rgba(143, 143, 143, 1);
+            }
+            .text-active {
+                color: rgba(40, 126, 255, 1);
+            }
+        }
+    }
+}

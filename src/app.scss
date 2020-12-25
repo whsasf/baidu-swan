@@ -1,0 +1,117 @@
+@import './icon.scss';
+@import './pages/news/News.scss';
+@import './pages/login/Login.scss';
+@import './pages/introduce/Introduce.scss';
+@import './pages/example/Example.scss';
+@import './pages/course/Course.scss';
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row-center-center {
+    @extend .flex-row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-between-center {
+    @extend .flex-row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-row-between-end {
+    @extend .flex-row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.flex-row-between {
+    @extend .flex-row;
+    justify-content: space-between;
+}
+.flex-row-center {
+    @extend .flex-row;
+    justify-content: center;
+}
+
+.flex-row-start-center {
+    @extend .flex-row;
+    align-items: center;
+}
+.flex-row-start-end {
+    @extend .flex-row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.flex-column-center-center {
+    @extend .flex-column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-between-center {
+    @extend .flex-column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-column-between {
+    @extend .flex-column;
+    justify-content: space-between;
+}
+
+.flex-column-center {
+    @extend .flex-column;
+    justify-content: center;
+}
+.flex-column-start-center {
+    @extend .flex-column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Container {
+    padding-top: 88px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+    height: 0;
+    overflow: hidden;
+}
+.taro_page {
+    height: 100%;
+}
+
+.flex1 {
+    display: flex;
+    flex: 1;
+}
+
+.absolute {
+    @extend .flex-column;
+    @extend .flex1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.line1 {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+// ::-webkit-scrollbar {
+//     width: 0;
+//     height: 0;
+//     color: transparent;
+// }
+@import '~taro-ui/dist/style/components/toast.scss';

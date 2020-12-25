@@ -1,0 +1,37 @@
+@import './components/VideoCard.scss';
+@import './CourseDetail.scss';
+.Course {
+    flex: 1;
+    background-color: rgba(245, 245, 245, 1);
+    .at-tabs__item--active {
+        color: rgba(40, 126, 255, 1);
+    }
+    .at-tabs__item-underline {
+        background-color: rgba(40, 126, 255, 1);
+    }
+    .videolist {
+        margin-top: 40px;
+    }
+    .nav {
+        height: 100px;
+        background-color: white;
+        padding: 0 42px;
+        .item {
+            box-sizing: border-box;
+            height: 100px;
+            border-top: 4px solid white;
+            border-bottom: 4px solid white;
+            .text {
+                font-size: 28px;
+                color: rgba(106, 106, 106, 1);
+            }
+            .text-active {
+                color: rgba(35, 26, 18, 1);
+                font-weight: bold;
+            }
+        }
+        .item-active {
+            border-bottom: 4px solid rgba(40, 126, 255, 1);
+        }
+    }
+}

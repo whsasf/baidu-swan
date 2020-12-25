@@ -1,0 +1,29 @@
+.Home-Goods {
+    flex: 1;
+    background-color: #f5f5f5;
+    .search {
+        height: 136px;
+        background-color: rgba(255, 202, 39, 1);
+        .content {
+            width: 670px;
+            height: 88px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 0 28px;
+            box-sizing: border-box;
+            .input {
+                height: 48px;
+                font-size: 32px;
+                line-height: 48px;
+                margin-left: 18px;
+            }
+        }
+    }
+    .list {
+        margin-top: 40px;
+        .nomore {
+            align-self: center;
+            font-size: 30px;
+        }
+    }
+}

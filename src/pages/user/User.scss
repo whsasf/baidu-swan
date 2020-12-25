@@ -1,0 +1,77 @@
+@import './components/RowItem.scss';
+@import './Arguments.scss';
+@import './About.scss';
+.User {
+    flex: 1;
+    background-color: rgba(245, 245, 245, 1);
+    padding-top: 53px;
+    padding-left: 36px;
+    padding-right: 36px;
+    box-sizing: border-box;
+    .msg {
+        .left {
+            .avatar {
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+            }
+            .txtmsg {
+                margin-left: 13px;
+                .username {
+                    font-size: 32px;
+                    color: rgba(0, 0, 0, 1);
+                    font-weight: 500;
+                }
+                .version {
+                    margin-top: 6px;
+                    height: 44px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    .versionname {
+                        margin-left: 8px;
+                        color: rgba(242, 177, 20, 1);
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .right {
+            position: relative;
+            margin-top: 20px;
+            .count {
+                position: absolute;
+                top: -18px;
+                right: -18px;
+                width: 32px;
+                height: 32px;
+                border-radius: 16px;
+                background-color: rgba(254, 81, 0, 1);
+                border-width: 2px;
+                border-color: rgba(245, 245, 245, 1);
+                .text {
+                    font-size: 24px;
+                    color: white;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .row1 {
+        margin-top: 24px;
+    }
+    .row2 {
+        margin-top: 40px;
+    }
+    .button {
+        width: 670px;
+        height: 88px;
+        border-radius: 8px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        background-color: white;
+        .text {
+            font-size: 28px;
+            color: rgba(146, 143, 140, 1);
+        }
+    }
+}

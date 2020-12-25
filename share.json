@@ -1,0 +1,11 @@
+{
+    "pages": [
+        {
+            "path": "/Index"
+        },
+        {
+            "path": "/pages/news/NewsDetail",
+            "query": "id=1&type=bailin"
+        }
+    ]
+}

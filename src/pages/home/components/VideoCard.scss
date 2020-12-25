@@ -1,0 +1,42 @@
+.Home-VideoCard {
+    box-sizing: border-box;
+    width: 670px;
+    height: 190px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 24px;
+    align-self: center;
+    margin-bottom: 24px;
+    .cover {
+        width: 220px;
+        height: 138px;
+        border-radius: 8px;
+        background-color: rgba(201, 201, 201, 1);
+    }
+    .right {
+        margin-left: 32px;
+        height: 138px;
+        flex: 1;
+        .title {
+            font-size: 28px;
+            line-height: 41px;
+            color: rgba(35, 26, 18, 1);
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .count {
+            font-size: 28px;
+        }
+        .study {
+            font-size: 24px;
+            color: rgba(146, 143, 140, 1);
+        }
+        .study-count {
+            color: rgba(242, 177, 20, 1);
+        }
+    }
+}

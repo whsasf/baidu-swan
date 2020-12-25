@@ -1,0 +1,164 @@
+.Login {
+    flex: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    .box {
+        width: 560px;
+        box-sizing: border-box;
+        position: relative;
+        background-color: white;
+        border-radius: 8px;
+        .cancle {
+            position: absolute;
+            z-index: 1001;
+            top: 20px;
+            right: 20px;
+        }
+        .slogan {
+            position: absolute;
+            z-index: 1001;
+            top: 53px;
+            left: 0;
+            right: 0;
+            height: 40px;
+            .slogan-text {
+                color: white;
+                font-size: 29px;
+                line-height: 40px;
+            }
+        }
+        .cover-top {
+            margin-bottom: 58px;
+            width: 560px;
+            height: 274px;
+        }
+        .mobile {
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 440px;
+            height: 88px;
+            box-sizing: border-box;
+            background-color: rgba(245, 245, 245, 1);
+            border-radius: 4px;
+            .input {
+                flex: 1;
+                line-height: 44px;
+                font-size: 28px;
+                color: rgba(143, 143, 143, 1);
+                font-weight: 500;
+            }
+        }
+        .code {
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 440px;
+            height: 88px;
+            box-sizing: border-box;
+            background-color: rgba(245, 245, 245, 1);
+            border-radius: 4px;
+            .input {
+                flex: 1;
+                line-height: 44px;
+                font-size: 28px;
+                color: rgba(143, 143, 143, 1);
+                font-weight: 500;
+            }
+            .text {
+                font-size: 28px;
+                line-height: 40px;
+                color: rgba(36, 29, 29, 1);
+                font-weight: bold;
+            }
+        }
+        .login {
+            margin-top: 40px;
+            margin-bottom: 60px;
+            width: 440px;
+            height: 88px;
+            align-self: center;
+            border-radius: 60px;
+            background-image: linear-gradient(20deg, rgba(250, 80, 47, 1), rgba(255, 116, 59, 1));
+            .text {
+                font-size: 32px;
+                line-height: 48px;
+                color: white;
+                font-weight: 500;
+            }
+        }
+        .hint {
+            margin-top: 38px;
+            margin-left: 96px;
+            font-size: 28px;
+            line-height: 40px;
+            color: rgba(35, 26, 18, 1);
+            font-weight: 500;
+        }
+        .bottom {
+            position: fixed;
+            bottom: 52px;
+            left: 0;
+            right: 0;
+            .text1 {
+                margin-left: 12px;
+                color: rgba(187, 187, 187, 1);
+                font-size: 24px;
+                line-height: 34px;
+            }
+            .text2 {
+                margin-left: 12px;
+                color: rgba(106, 106, 106, 1);
+                font-size: 24px;
+                line-height: 34px;
+            }
+        }
+    }
+    .box1 {
+        padding-left: 44px;
+        padding-right: 44px;
+        width: 560px;
+        box-sizing: border-box;
+        position: relative;
+        background-color: white;
+        border-radius: 8px;
+        .cancle {
+            position: absolute;
+            z-index: 1001;
+            top: 20px;
+            right: 20px;
+        }
+        .cover {
+            margin-top: 58px;
+            width: 340px;
+            height: 253px;
+        }
+        .status-box {
+            margin-top: 46px;
+        }
+        .status {
+            font-size: 40px;
+            color: rgba(36, 29, 29, 1);
+            font-weight: bold;
+            text-align: center;
+        }
+        .line {
+            margin-top: 50px;
+            height: 2px;
+            background-color: rgba(245, 245, 245, 1);
+        }
+        .tinp-box {
+            margin-top: 40px;
+            margin-bottom: 61px;
+        }
+        .tinp {
+            color: rgba(85, 85, 85, 1);
+            font-size: 29px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.Course-VideoCard {
+    box-sizing: border-box;
+    width: 670px;
+    height: 214px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 24px;
+    align-self: center;
+    margin-bottom: 32px;
+    .cover {
+        width: 220px;
+        height: 165px;
+        overflow: 8px;
+        background-color: rgba(165, 165, 165, 1);
+    }
+    .right {
+        margin-left: 32px;
+        height: 165px;
+        .title {
+            flex: 1;
+            font-size: 28px;
+            line-height: 41px;
+            color: rgba(35, 26, 18, 1);
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .price {
+            font-size: 28px;
+            color: rgba(254, 81, 0, 1);
+            font-weight: bold;
+        }
+        .count {
+            font-size: 24px;
+            color: rgba(187, 187, 187, 1);
+            margin-left: 10px;
+        }
+        .study {
+            font-size: 24px;
+            color: rgba(187, 187, 187, 1);
+        }
+    }
+}

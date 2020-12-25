@@ -1,0 +1,14 @@
+.User-About {
+    flex: 1;
+    background-color: white;
+    padding: 0 40px;
+    box-sizing: border-box;
+    .title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .article {
+        font-size: 30px;
+    }
+}
